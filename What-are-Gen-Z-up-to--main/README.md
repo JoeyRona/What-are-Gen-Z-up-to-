@@ -1,1 +1,0 @@
-# What-are-Gen-Z-up-to-
