@@ -1,0 +1,13 @@
+effective_date,hourly_rate_eur,source
+2011-07-01,8.65,gov.ie historic NMW rates (rate in force through 2015)
+2016-01-01,9.15,gov.ie historic NMW rates
+2017-01-01,9.25,gov.ie historic NMW rates
+2018-01-01,9.55,gov.ie historic NMW rates
+2019-01-01,9.80,gov.ie historic NMW rates
+2020-02-01,10.10,WageIndicator archive 2020-02-01; gov.ie
+2021-01-01,10.20,gov.ie press release Jan 2021 increase (+10c)
+2022-01-01,10.50,WageIndicator archive 2022-01-01
+2023-01-01,11.30,Irish Times / IBEC Jan 2023 increase
+2024-01-01,12.70,Deloitte / Chartered Accountants Ireland Jan 2024 increase
+2025-01-01,13.50,Arletti Partners; Playroll
+2026-01-01,14.15,Arletti Partners; Playroll
