@@ -5,7 +5,7 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-orange) ![Python](https://img.shields.io/badge/python-3.11+-blue) ![pandas](https://img.shields.io/badge/pandas-2.x-150458) ![Docker](https://img.shields.io/badge/docker-planned-2496ED) ![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-Code%20Engine-0f62fe)
 
-**Live dashboard:** _link added after Chunk 8_
+**Live dashboard:** 
 
 ---
 
@@ -19,11 +19,10 @@
 7. [Method](#7-method)
 8. [Project structure](#8-project-structure)
 9. [Getting started](#9-getting-started)
-10. [Build roadmap](#10-build-roadmap)
-11. [Limitations and responsible use of data](#11-limitations-and-responsible-use-of-data)
-12. [Tech stack](#12-tech-stack)
-13. [What I learned](#13-what-i-learned)
-14. [Author](#14-author)
+10. [Limitations and responsible use of data](#11-limitations-and-responsible-use-of-data)
+11. [Tech stack](#12-tech-stack)
+12. [What I learned](#13-what-i-learned)
+13. [Author](#14-author)
 
 ---
 
@@ -259,22 +258,6 @@ docker build -t what-are-gen-z-up-to .
 docker run -p 8501:8501 what-are-gen-z-up-to
 # open http://localhost:8501
 ```
-
----
-
-## 10. Build roadmap
-
-The project is built in nine chunks, each ending with a working, committed result.
-
-- [x] **Chunk 1. Setup and data collection.** Repo, environment, raw data and data dictionary
-- [x] **Chunk 2. Validation and cleaning.** `clean.py` with documented source corrections
-- [x] **Chunk 3. Pub decline (Q1).** National trend, periods, county ranking, Dublin vs the rest, since COVID
-- [ ] **Chunk 4. Cost of drinking (Q2).** Alcohol CPI vs minimum wage
-- [ ] **Chunk 5. Apps and alternatives (Q3, Q4).** Search-interest trends and dating-app paying users
-- [ ] **Chunk 6. Forecast.** Pub numbers to 2030, with model evaluation and an error range
-- [ ] **Chunk 7. Dashboard.** Interactive Streamlit app, one page per question
-- [ ] **Chunk 8. Containerise and deploy.** Docker and IBM Cloud Code Engine, with a live link
-- [ ] **Chunk 9. Findings and polish.** Write-up, tests and screenshots
 
 ---
 
