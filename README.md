@@ -3,7 +3,7 @@
 
 > A data analysis of pub closures, the cost of drinking, dating-app trends and the search for alternatives in Ireland, built in Python and designed to be deployed as a containerised dashboard on IBM Cloud.
 
-![Status](https://img.shields.io/badge/status-in%20progress-orange) ![Python](https://img.shields.io/badge/python-3.11+-blue) ![pandas](https://img.shields.io/badge/pandas-2.x-150458) ![Docker](https://img.shields.io/badge/docker-planned-2496ED) ![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-Code%20Engine-0f62fe)
+![Python](https://img.shields.io/badge/python-3.11+-blue) ![pandas](https://img.shields.io/badge/pandas-2.x-150458) ![Docker](https://img.shields.io/badge/docker-planned-2496ED) ![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-Code%20Engine-0f62fe)
 
 **Live dashboard:** 
 
