@@ -6,9 +6,7 @@
 ![Python](https://img.shields.io/badge/python-3.11+-blue) ![pandas](https://img.shields.io/badge/pandas-2.x-150458) ![Docker](https://img.shields.io/badge/docker-planned-2496ED) ![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-Code%20Engine-0f62fe)
 
 **Live dashboard:** 
-
 ---
-
 ## Contents
 1. [The question](#1-the-question)
 2. [Why it matters](#2-why-it-matters)
@@ -129,9 +127,6 @@ All data is public and aggregated. Raw files are stored unedited in `data/raw/`,
 | `app_tinder_trends.csv` | Search interest: "Tinder" | Google Trends, Ireland | Nov 2015 – Nov 2025, monthly |
 | `app_trends_hinge.csv` | Search interest: "Hinge" | Google Trends, Ireland | Nov 2015 – Nov 2025, monthly |
 | `app_trends_bumble.csv` | Search interest: "Bumble" | Google Trends, Ireland | Nov 2015 – Nov 2025, monthly |
-
-> **On proxies:** no dataset directly measures how often young people meet each other. This project uses **proxies** (venue counts, prices, app users and search interest) and is upfront about what each one can and can't show. See [Section 11](#11-limitations-and-responsible-use-of-data).
-
 ---
 
 ## 6. Data quality and corrections
@@ -305,7 +300,3 @@ Being clear about what the data *can't* show matters as much as the findings.
 ## 14. Author
 
 **Joseph (Joey) Ronan**, BSc (Hons) Computer Science, South East Technological University (SETU)
-
-[LinkedIn](#) · [GitHub](#) · [Credly](#)
-
-_Data sources are credited in Section 5. This project is for educational and portfolio purposes._
