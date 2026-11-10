@@ -61,7 +61,7 @@ The project was scoped using **IBM Enterprise Design Thinking**.
 **Persona: Aoife, 22, final-year student in Waterford**
 > Wants to meet people outside her course. Finds nights out expensive and the apps draining. Isn't sure what else is out there.
 
-**Hill (the outcome the project aims for):**
+**The Outcome:**
 > *A young person in Ireland can see, in under two minutes, how the ways people meet have changed over the last decade and what's growing instead, backed by public data.*
 
 **Sponsor-user questions that guide the analysis:**
