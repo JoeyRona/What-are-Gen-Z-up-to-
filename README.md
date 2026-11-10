@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/python-3.11+-blue) ![pandas](https://img.shields.io/badge/pandas-2.x-150458) ![Docker](https://img.shields.io/badge/docker-planned-2496ED) ![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-Code%20Engine-0f62fe)
 
 **Live dashboard:** 
----
+-------------------------------------------------------------------------------------------------------
 ## Contents
 1. [The question](#1-the-question)
 2. [Why it matters](#2-why-it-matters)
@@ -22,7 +22,7 @@
 12. [What I learned](#13-what-i-learned)
 13. [Author](#14-author)
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 1. The question
 
@@ -44,7 +44,7 @@ It breaks down into four sub-questions:
 | **Q3** | Are dating apps declining, or just changing? | Irish search interest in Tinder, Hinge and Bumble; global paying-user figures |
 | **Q4** | What are people turning to instead? | Irish search interest in going-out terms and alternative activities |
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 2. Why it matters
 
@@ -52,7 +52,7 @@ It breaks down into four sub-questions:
 - **Young people:** loneliness is a growing public-health concern. Knowing *where* connection is moving helps clubs, councils and venues respond.
 - **Business:** hospitality, events and app companies all need to know where demand is going.
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 3. Design thinking framing
 
@@ -69,7 +69,7 @@ The project was scoped using **IBM Enterprise Design Thinking**.
 2. "Is it just me, or has going out got way more expensive?"
 3. "If not the pub or Tinder, then where?"
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 4. Key findings
 
@@ -109,7 +109,7 @@ The project was scoped using **IBM Enterprise Design Thinking**.
 
 **Headline (one sentence):**
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 5. Data sources
 
@@ -127,7 +127,8 @@ All data is public and aggregated. Raw files are stored unedited in `data/raw/`,
 | `app_tinder_trends.csv` | Search interest: "Tinder" | Google Trends, Ireland | Nov 2015 – Nov 2025, monthly |
 | `app_trends_hinge.csv` | Search interest: "Hinge" | Google Trends, Ireland | Nov 2015 – Nov 2025, monthly |
 | `app_trends_bumble.csv` | Search interest: "Bumble" | Google Trends, Ireland | Nov 2015 – Nov 2025, monthly |
----
+
+-------------------------------------------------------------------------------------------------------
 
 ## 6. Data quality and corrections
 
@@ -157,14 +158,9 @@ Every source was checked before it was used. All corrections are made in code (`
 - **Each Google Trends term was exported separately**, so each is scaled 0–100 within itself, and raw values can't be compared across terms. Each term is therefore **indexed to its own 2016 average (= 100)**. This compares how much each term *changed*, not how popular they are relative to each other.
 - **The minimum wage** is stored as rate changes and converted to a monthly series so it can be joined with monthly price data. The February 2020 increase is applied from February, not January.
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 7. Method
-
-```
-Collect ──► Validate & clean ──► Explore ──► Combine ──► Forecast ──► Present ──► Deploy
- raw files     clean.py           notebooks    new metrics   scikit-learn   Streamlit   Docker + IBM Cloud
-```
 
 1. **Collect** public data into `data/raw/`, unedited.
 2. **Validate and clean** with `src/clean.py`: check totals, correct documented errors, standardise dates and reshape into tidy tables in `data/processed/`.
@@ -178,11 +174,10 @@ Collect ──► Validate & clean ──► Explore ──► Combine ──►
 6. **Present** the results in an interactive Streamlit dashboard, one page per question.
 7. **Deploy** with Docker to **IBM Cloud Code Engine**.
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 8. Project structure
 
-```
 What-are-Gen-Z-up-to/
 ├── data/
 │   ├── raw/                     # Original downloads, never edited
@@ -217,7 +212,7 @@ What-are-Gen-Z-up-to/
 | `dating_apps.csv` | Paying users by app and year, with % change within each app |
 | `trends.csv` | All search terms in one long table: raw interest and 2016 index |
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 9. Getting started
 
@@ -254,7 +249,7 @@ docker run -p 8501:8501 what-are-gen-z-up-to
 # open http://localhost:8501
 ```
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 11. Limitations and responsible use of data
 
@@ -271,7 +266,7 @@ Being clear about what the data *can't* show matters as much as the findings.
 - **Forecast uncertainty.** A trend model can't anticipate shocks such as a pandemic or policy change. Forecasts are illustrative and shown with an error range.
 - **No personal data.** Every dataset is public and aggregated, so no individual can be identified.
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 12. Tech stack
 
@@ -287,15 +282,7 @@ Being clear about what the data *can't* show matters as much as the findings.
 | Cloud | IBM Cloud Code Engine, IBM Cloud Container Registry |
 | Process | IBM Enterprise Design Thinking, Git and GitHub |
 
----
-
-## 13. What I learned
-
--
--
--
-
----
+-------------------------------------------------------------------------------------------------------
 
 ## 14. Author
 
