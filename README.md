@@ -212,12 +212,12 @@ python src/clean.py
 jupyter notebook notebooks/
 ```
 
-**Dashboard (after Chunk 7):**
+**Dashboard:**
 ```bash
 streamlit run app/dashboard.py
 ```
 
-**Docker (after Chunk 8):**
+**Docker:**
 ```bash
 docker build -t what-are-gen-z-up-to .
 docker run -p 8501:8501 what-are-gen-z-up-to
