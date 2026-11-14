@@ -138,14 +138,14 @@ Every source was checked before it was used. All corrections are made in code (`
 
 | Year | Sum of counties | National total | Difference |
 |---|---|---|---|
-| 2005 | 8,617 | 8,617 | ✅ 0 |
-| 2019 | 7,137 | 7,137 | ✅ 0 |
-| 2020 | 6,900 | 6,890 | ❌ +10 |
-| 2021 | 6,788 | 6,788 | ✅ 0 |
-| 2022 | 6,693 | 6,680 | ❌ +13 |
-| 2023 | 6,480 → **6,563** after correction | 6,563 | ✅ fixed |
-| 2024 | 6,498 | 6,498 | ✅ 0 |
-| 2025 | 6,412 | 6,412 | ✅ 0 |
+| 2005 | 8,617 | 8,617 | 0 |
+| 2019 | 7,137 | 7,137 | 0 |
+| 2020 | 6,900 | 6,890 | +10 |
+| 2021 | 6,788 | 6,788 | 0 |
+| 2022 | 6,693 | 6,680 | +13 |
+| 2023 | 6,480 → **6,563** after correction | 6,563 | fixed |
+| 2024 | 6,498 | 6,498 | 0 |
+| 2025 | 6,412 | 6,412 | 0 |
 
 **Errors found in the source report:**
 - **Clare 2023 is printed as 176**, between 277 (2022) and 265 (2024). The national total implies **259**, so it's corrected in `clean.py` with the reason logged.
