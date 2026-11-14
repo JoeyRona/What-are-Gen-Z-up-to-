@@ -15,12 +15,11 @@
 5. [Data sources](#5-data-sources)
 6. [Data quality and corrections](#6-data-quality-and-corrections)
 7. [Method](#7-method)
-8. [Project structure](#8-project-structure)
-9. [Getting started](#9-getting-started)
-10. [Limitations and responsible use of data](#11-limitations-and-responsible-use-of-data)
-11. [Tech stack](#12-tech-stack)
-12. [What I learned](#13-what-i-learned)
-13. [Author](#14-author)
+8. [Getting started](#9-getting-started)
+9. [Limitations and responsible use of data](#11-limitations-and-responsible-use-of-data)
+10. [Tech stack](#12-tech-stack)
+11. [What I learned](#13-what-i-learned)
+12. [Author](#14-author)
 
 -------------------------------------------------------------------------------------------------------
 
@@ -176,30 +175,6 @@ Every source was checked before it was used. All corrections are made in code (`
 
 -------------------------------------------------------------------------------------------------------
 
-## 8. Project structure
-
-What-are-Gen-Z-up-to/
-├── data/
-│   ├── raw/                     # Original downloads, never edited
-│   ├── processed/               # Clean, analysis-ready tables (made by clean.py)
-│   └── DATA_DICTIONARY.md       # Every file and column explained
-├── notebooks/
-│   ├── 01_explore_pubs.ipynb            # Q1
-│   ├── 02_cost_of_going_out.ipynb       # Q2
-│   ├── 03_apps_and_alternatives.ipynb   # Q3 and Q4
-│   └── 04_forecast.ipynb                # Forecast
-├── reports/
-│   └── figures/                 # Charts saved by the notebooks
-├── src/
-│   └── clean.py                 # Raw → processed, with documented corrections
-├── app/
-│   └── dashboard.py             # Streamlit dashboard
-├── tests/                       # Unit tests for cleaning and metrics
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
-
 **Processed outputs from `clean.py`:**
 
 | File | Description |
@@ -252,8 +227,6 @@ docker run -p 8501:8501 what-are-gen-z-up-to
 -------------------------------------------------------------------------------------------------------
 
 ## 11. Limitations and responsible use of data
-
-Being clear about what the data *can't* show matters as much as the findings.
 
 - **Correlation, not causation.** Rising prices and falling pub numbers happening at the same time doesn't prove one caused the other. Rural depopulation, the 2004 smoking ban, drink-driving laws, COVID-19 and drinking at home are all possible factors this data can't separate.
 - **Proxies, not direct measurement.** Pub licences count venues, not visitors. Google Trends measures *search interest*, not attendance or sign-ups.
